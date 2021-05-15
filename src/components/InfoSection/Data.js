@@ -1,0 +1,51 @@
+import svg1 from '../../images/svg-1.svg';
+import svg2 from '../../images/svg-2.svg';
+import svg3 from '../../images/svg-3.svg';
+export const homeObjOne = { 
+    id :'about',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine:'Premium Account',
+    headLine: 'Unlimited services with support',
+    description:'Premium Account gonna make you Get access to the unlimited services with all the supports that you need .',
+    buttonLabel:'Get Started',
+    imgStart:true,
+    img: svg1,
+    alt:'car',
+    dark:true,
+    primary:true,
+    darkText:false,
+};
+export const homeObjTwo = { 
+    id :'discover',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine:'Unlimited access',
+    headLine: 'Unlimited access to the unlimited services',
+    description:'we have you covered no matter where you are located , All you need is an internet connection.',
+    buttonLabel:'Learn More',
+    imgStart:false,
+    img: svg2,
+    alt:'image',
+    dark:true,
+    primary:false,
+    darkText:true,
+};
+export const homeObjThree = { 
+    id:'signin',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine:'Join Us Now',
+    headLine: 'Creating an account is extremely easy ',
+    description:'Get everything set up and ready in under 10 minutes , All you need to do is to Contact Us ',
+    buttonLabel:'Join Us',
+    imgStart:false,
+    img: svg3,
+    alt:'img',
+    dark:true,
+    primary:false,
+    darkText:true,
+};
